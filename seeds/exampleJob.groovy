@@ -1,9 +1,9 @@
 multibranchPipelineJob('example') {
   branchSources {
-    git {
+    github {
       id('84aff50e-2652-4e95-a102-5eccc1c62e95')
-      remote('git@github.com:omarvides/dockerized-api.git')
-      credentialsId('github-user')
+      repository('omarvides/dockerized-api.git')
+      checkoutCredentialsId('github-user')
       includes('*')
     }
   }
