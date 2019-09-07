@@ -1,5 +1,5 @@
 String path = 'ci-jobs'
-String repo = 'omarvides/dockerized-api.git'
+String repo = 'omarvides/dockerized-api'
 
 folder(path) {
   description 'This folder contains all the ci-jobs'
